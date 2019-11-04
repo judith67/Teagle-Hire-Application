@@ -1,0 +1,281 @@
+@media only screen and (max-width: 536px) {
+  #logo>img{
+      width: 130px;
+    }
+    #navigationList{
+      visibility: hidden;
+      text-align: center;
+    }
+    #collapsebtn{
+      visibility: visible;
+      position: absolute;
+      top: 30%;
+      left: 70% !important;
+    }
+    #closebtn{
+      visibility: visible;
+      position: absolute;
+      top: 12%;
+      left: 70%;
+    }
+
+    #navigation-collapse{
+      background-color: #fff;
+      position: fixed;
+    }
+    .close{
+      height: 0px;
+    }
+    .modal-content{
+      width: 250px;
+      margin-left: -80px;
+    }
+    #showHide {
+      width: 35px;
+      height: 25px;
+      float: left;
+      position: absolute;
+      top: 41.5%;
+      left: 110%;
+      opacity: 0.47;
+      cursor: pointer;
+    }
+    .checkbox{
+      width: 70px !important;
+      margin-right: -9% !important;
+    }
+    #loginform{
+      position: absolute;
+      top: 55%;
+      left: 45%;
+      transform: translate(-50%,-50%);
+      border-left: 1px solid #cbcbcb;
+      padding: 5% 3%;
+    }
+    #loginform>input{
+      border: 1px solid #333;
+      color: #333;
+    }
+    #loginform>button{
+      margin-top: 9%;
+      margin-left: 50%;
+    }
+    #header{
+      margin-top: 13%;
+    }
+    .headerimg{
+      width: 100%;
+      height: 200px;
+      margin-top: 10%;
+      background-size: cover;
+    }
+    .headerText{
+      margin-top: 6%;
+      font-size: 15px;
+    }
+    #headerbtn{
+      position: absolute;
+      top: 30%;
+      left: 75%;
+      padding: 7px;
+      font-size: 10px;
+    }
+    .counters{
+      margin-top: -1%;
+      height: 220px;
+    }
+    .counters>div>div{
+      margin-left: -20%;
+    }
+    .count, .tag{
+      font-size: 15px;
+    }
+    #add{
+      margin-left: -5%;
+    }
+    #about{
+      margin-top: -5%;
+    }
+    .caption{
+      font-size: 15px;
+    }
+
+    #productPrinciple>ul{
+      font-size: 10px;
+      margin: 0;
+      margin-top: -5%;
+      margin-bottom: 12%;
+    }
+    #productPrinciple>p{
+      margin: 10px;
+      margin-left: -13%;
+      font-size: 12px;
+    }
+    #workflowhead{
+      width: 90%;
+      margin-left: 7%;
+      font-size: 15px;
+      padding-top: 20%;
+      margin-bottom: 10%;
+    }
+    #aboutats{
+      font-size: 10px;
+      margin-left: 2%;
+    }
+    #aboutats>p{
+      font-size: 10px;
+    }
+    #workflowa{
+      margin-top: 5%;
+      width: 200px;
+      border:0;
+    }
+    #workb{
+      width: 200px;
+      position: absolute;
+      top: 310% !important;
+      left: -50%;
+    }
+    .worktext>div>p{
+      font-size: 12px;
+    }
+    .worktext>.begin{
+      margin-top: 50%;
+    }
+    #prodheader{
+      margin-top: 10%;
+      margin-left: -5%;
+      font-size: 25px;
+      margin-bottom: 18%;
+    }
+    #features>div>div>.row{
+      margin-left: -20%;
+      margin-right: 10%;
+    }
+    #features>div>div>div{
+      margin-bottom: -10%;
+    }
+    #features>div>div>div>div{
+      margin-bottom: 10%;
+    }
+    #features>div>div>div>div>h4{
+      font-size: 15px;
+      margin-bottom: 5%;
+    }
+    #features>div>div>div>div>p{
+      font-size: 12px;
+      text-align: center;
+    }
+    #features>div>div>div>div>i{
+      font-size: 20px;
+      margin-bottom: -5%;
+    }
+    .counter>h1{
+      font-size: 15px;
+      padding: 0;
+      font-family: futura-medium;
+      margin:3%;
+      width: 100%;
+    }
+    #first{
+      margin-left: 3%;
+    }
+    #second{
+      margin-left: 3%;
+    }
+    #consulting>.row{
+      margin-left: 7%;
+    }
+    .a{
+      margin-left: -9.5%;
+    }
+    .a>h1{
+      margin-left:15%;
+      margin-right: -10%;
+    }
+    #consulting>div>div>h1{
+      margin-left: -11%;
+    }
+    #consult{
+      font-size: 20px !important;
+    }
+    .tbla{
+        margin-left:-10.5% !important;
+    }
+    #talenttbl tr td{
+      font-size: 10px;
+      padding: 5px;
+    }
+    #talenttbl tr td>i{
+      font-size: 15px;
+      margin-bottom: 10px;
+    }
+    .contactb{
+      padding-right: -30%;
+    }
+    #contact>div>div>address>#fullAdd{
+      font-size: 10px;
+      padding: 10px;
+    }
+    #contact>div>div>iframe{
+      width: 100%;
+    }
+
+    #loginlogo>img{
+        width: 180px;
+    }
+    footer{
+      font-size: 10px;
+    }
+    #foot{
+      position: fixed;
+      top: 92.5%;
+    }
+    .fa-arrow-left{
+      color: #333;
+      font-size: 20px;
+      padding: 5px 12px;
+      border: 1px solid #333;
+      cursor: pointer;
+    }
+}
+@media only screen and (max-width: 900px) {
+  #logo>img{
+      width: 130px;
+    }
+
+    #navigation-collapse{
+      background-color: #fff;
+    }
+    #navigationList{
+      visibility: hidden;
+    }
+    #collapsebtn{
+      visibility: visible;
+      position: absolute;
+      top: 30%;
+      left: 80%;
+    }
+}
+@media only screen and (min-width: 1000px) {
+  #logo>img{
+      width: 130px;
+    }
+    #navigationList{
+      visibility: visible;
+    }
+    #collapsebtn{
+      visibility: hidden;
+    }
+}
+@media only screen and (min-width: 1200px) {
+  #logo>img{
+      width: 130px;
+    }
+    #navigationList{
+      visibility: visible;
+    }
+    #collapsebtn{
+      visibility: hidden;
+    }
+}

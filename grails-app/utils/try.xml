@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<need object="hire" id="xml_need_container" type="1">
+
+	<p name="pg_m_education.school.school_tier" oper="eq">51f9fe72ba36f686de7cf83c</p>
+
+	<p name="gender.v" oper="eq">510a072eba36baaddd23fe0e</p>
+
+	<p name="m_skill" oper="ineq">
+
+		<i forv="518b8574ba36fb112e6e3fa7">
+
+			<skillarea priority="0" oper="eq" disp="Java">518b8574ba36fb112e6e3fa7</skillarea>
+
+		</i>
+
+		<i forv="518b8574ba36fb112e6e3fa9">
+
+			<skillarea priority="1" oper="eq" disp="JavaScript">518b8574ba36fb112e6e3fa9</skillarea>
+
+		</i>
+
+		<i forv="51c43d2a2caa38a15f24b892">
+
+			<skillarea priority="2" oper="eq" disp="oop">51c43d2a2caa38a15f24b892</skillarea>
+
+		</i>
+
+		<i forv="-1">
+
+			<skillarea priority="2" oper="eq" disp="software">-1</skillarea>
+
+		</i>
+
+		<i forv="-1">
+
+			<skillarea priority="2" oper="eq" disp="technical">-1</skillarea>
+
+		</i>
+
+	</p>
+
+	<p es_oper="p" name="pg_m_role.m_role.search_terms.display" oper="eq">Software Engineer</p>
+
+	<p es_oper="p" name="pg_m_role.m_role.search_terms.display" oper="eq">Java Programmer</p>
+
+	<p name="jobIndustries.v" oper="ineq">
+
+		<i disp="E-commerce">5656b49e711c9dc4511df775</i>
+
+		<i disp="Financial Management">5325a5eefa1f8d92cb68717e</i>
+
+	</p>
+
+	<pg name="pg_m_education">
+
+		<p name="major.v" oper="eq" disp="Computers">539b69b15f298bf6d46fa4e4</p>
+
+		<p name="degree.v" mandatory="true" degid="5395aed2d3e762358bc59b9f" disp="BE/BTech">5395aed2d3e762358bc59b9f</p>
+
+	</pg>
+
+	<pg name="pg_m_education">
+
+		<p name="major.v" oper="eq" disp=""/>
+
+		<p name="degree.v" mandatory="false" degid="5395aedad3e762358bc59bb2" disp="M TECH">5395aedad3e762358bc59bb2</p>
+
+	</pg>
+
+	<pg name="pg_m_education" uid="6159201888610597">
+
+		<p name="major.v" oper="eq" disp=""/>
+
+		<p name="degreetype.v" mandatory="false" degid="5395aec7d3e762358bc59b94" disp="Graduate">5395aec7d3e762358bc59b94</p>
+
+	</pg>
+
+	<pg name="pg_m_education" uid="5284511952265751">
+
+		<p name="major.v" oper="eq" disp="Computers">539b69b15f298bf6d46fa4e4</p>
+
+		<p name="degreetype.v" mandatory="true" degid="5395aecad3e762358bc59b95" disp="Post Graduate">5395aecad3e762358bc59b95</p>
+
+	</pg>
+
+	<p name="jobFunctions.v" disp="Finance" oper="eq">564d8700e1a67f1d99288ac9</p>
+
+	<p name="m_country.v" disp="India" oper="eq">510a0730ba36baaddd23fe5f</p>
+
+	<p name="m_location.v" oper="ineq">
+
+		<i disp="Pune">510a0752ba360abe8a0a457c</i>
+
+		<i disp="Bangalore">53d25fab5bef745fb4e15ea1</i>
+
+		<i disp="Chennai">510a072eba36baaddd23fe17</i>
+
+		<i disp="Delhi">53d25fb95bef745fb4e17e92</i>
+
+	</p>
+
+	<p name="company.v" disp="Accenture" oper="eq">56d378a5270536b9b57474b8</p>
+
+	<word name="sentences" oper="eq">hard working</word>
+
+</need>

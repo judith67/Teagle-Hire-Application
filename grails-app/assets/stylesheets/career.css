@@ -1,0 +1,83 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+.banner{
+  height: 30%;
+  background: linear-gradient(rgba(198,65,242,0.66),rgba(161,8,212,0.66)),url(../images/careerback.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.banner>p{
+  font-size: 45px;
+  color: #fff;
+  font-family: sans-serif;
+  position: relative;
+  top: 40%;
+  left: 5%;
+}
+.panel-heading{
+  background-color: #A3A2A3 !important;
+  color: #fff !important;
+}
+.input-group-btn>.searchbtn{
+  margin-top: 65% !important;
+}
+.jobsearchcol{
+  margin-top: 3%;
+}
+.careerpanel{
+  margin-top: 2%;
+  width: 100%;
+}
+.resup{
+  position: relative;
+  left: 48.5%;
+}
+.resup>#submitresume{
+  position: relative;
+  left: 33.5%;
+  background-color: #00ace2;
+  color: #fff;
+}
+.descbody>p{
+  text-align: justify;
+  font-size: 12px;
+}
+.searchb{
+  margin-top: 3%;
+  padding-left: 10%;
+}
+.searchb>ul{
+  display: inline;
+}
+.searchb>ul>li{
+  display: inline-block;
+  width: 30%;
+}
+.searchb>ul>li>*{
+  width: 100%;
+  padding: 5px;
+  background-color: #fff;
+}
+#submita{
+
+    margin-left: 49%;
+    margin-top: 5.8%;
+    margin-bottom: 5.8%;
+    width: 20%;
+    background-color: #00ace2;
+    color: #fff;
+}
+#submit{
+  margin-left: 71.5%;
+  margin-top: 5.8%;
+  margin-bottom: 5.8%;
+  width: 20%;
+  background-color: #00ace2;
+  color: #fff;
+}
+.secondrow>col-lg-6:nth-child(2){
+  margin-left: -10%;
+}

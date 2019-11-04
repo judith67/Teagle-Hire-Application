@@ -1,0 +1,77 @@
+
+a {
+  color: #fff;
+}
+
+.dropdown dd,
+.dropdown dt {
+  margin: 0px;
+  padding: 0px;
+}
+
+.dropdown ul {
+  margin: -1px 0 0 0;
+}
+
+.dropdown dd {
+  position: relative;
+}
+
+.dropdown a,
+.dropdown a:visited {
+  color: #333;
+  text-decoration: none;
+  outline: none;
+  font-size: 10px;
+  font-weight: 400;
+}
+
+.dropdown dt a {
+  background-color: #ccc;
+  display: block;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  vertical-align: middle;
+}
+
+.dropdown dt a span,
+.multiSel span {
+  cursor: pointer;
+  display: inline-block;
+  padding: 0 3px 2px 0;
+}
+
+.dropdown dd ul {
+  background-color: #fff;
+  border: 0.3px solid #ccc;
+  color: #333;
+  display: none;
+  left: 0px;
+  padding: 2px 15px 2px 5px;
+  position: absolute;
+  top: 2px;
+  width: 140px;
+  list-style: none;
+  overflow: auto;
+}
+
+.dropdown span.value {
+  display: none;
+}
+
+.dropdown dd ul li a {
+  padding: 5px;
+  display: block;
+}
+
+.dropdown dd ul li a:hover {
+  background-color: #fff;
+}
+.statuspipeline>ul{
+  width: 80px !important;
+  background-color: #ccceff !important;
+}
+.statuspipeline>ul>li{
+  font-size: 8px !important;
+}

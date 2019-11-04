@@ -1,0 +1,197 @@
+.dropdown>a{
+border-radius: 0px !important;
+padding: 0.5% 6%;
+margin-left: -15%;
+}
+.dropdown-submenu>a{
+border-radius: 0px !important;
+font-size: 10px !important;
+}
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu>.dropdown-menu {
+    top: 0;
+    left: -90%;
+    margin-top: -6px;
+    margin-left: -1px;
+    border-radius: 0px;
+    font-size: 10px !important;
+}
+
+.dropdown-submenu:hover>.dropdown-menu {
+    display: block;
+    border-radius: 0px;
+}
+
+.dropdown-submenu>a:after {
+    display: block;
+    content: " ";
+    float: right;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #fff;
+    margin-top: 5px;
+    margin-right: -10px;
+    border-radius: 0px;
+}
+
+.dropdown-submenu:hover>a:after {
+    border-left-color: #ccc;
+    color: #fff;
+    border-radius: 0px;
+}
+
+.dropdown-submenu.pull-left {
+    float: none;
+    border-radius: 0px;
+}
+
+.dropdown-submenu.pull-left>.dropdown-menu {
+    left: -100%;
+    margin-left: 10px;
+}
+#lists>li{
+  list-style-type: none;
+}
+.candlist>ul>li{
+  list-style-type: none;
+}
+#display>li{
+  list-style-type: none;
+  margin-left: -90%;
+  font
+}
+#showjobs{
+  width: 20%;
+  padding: 3px;
+  font-size: 10px;
+}
+.interview{
+  padding: 0;
+}
+.interest{
+  padding: 0;
+  width: 80%;
+}
+#interview>table{
+  box-shadow: 0px 1px 1px #888;
+}
+#interview>table tr>th,td{
+  padding: 0;
+  font-size: 10px;
+  vertical-align: middle;
+  text-align: center;
+}
+#interview>table thead>tr>th{
+  background-color: #00ace2;
+  color: #fff;
+}
+#interview>table tbody>tr>td{
+  text-align:left;
+  padding-left: -2px;
+}
+#interview>table tbody>tr>td>button{
+  background-color: #00ace2;
+  color: #fff;
+  border: 0;
+  border-radius: 10%;
+}
+#interview>table tbody>tr>td>button:hover{
+  background-color: #426ef4;
+}
+#head>th,#head>td{
+  background-color: #ccc !important;
+}
+#namedisplay{
+  width: 100% !important;
+}
+#interview>table tbody>tr:nth-child(1)>td:nth-child(1){
+  width: 8%;
+  display: grid;
+}
+.centerbtn{
+  padding: 0 !important;
+}
+#interview>table tr>th:hover{
+  cursor: pointer;
+}
+.rowb{
+  padding: 0;
+}
+.rowb>#interview>table tr>th{
+  text-align: left;
+}
+#email{
+  border: 1px solid #eee;
+  padding: 1%;
+  background-color: #fcfcfc;
+  box-shadow: 0px 1px 2px #888;
+}
+#mail{
+  border: 0;
+}
+#mail tr:hover{
+  background: none;
+}
+#mail tr>td{
+  padding: .5%;
+  vertical-align: middle;
+}
+#mail tr>td:nth-child(1){
+  text-align: right;
+  width: 5%;
+}
+#mail tr>td:nth-child(2){
+  width: 40%;
+}
+#mail tr>td:nth-child(2){
+  text-align: left;
+}
+#mail tr>td>input{
+  padding: 5px;
+  width: 100%;
+  background-color: #fff;
+  outline: 0;
+}
+#mail tr>td>input::placeholder{
+  color: #cbcbcb;
+}
+#msg::placeholder{
+    color: #cbcbcb;
+}
+#msg{
+background-color: #fff;
+width: 100%;
+}
+#mail tr>td>input[type="submit"]{
+  width: 52px;
+  position: relative;
+  left: 75%;
+  background-color: #426ef4;
+  color: #fff;
+  border: 0;
+  box-shadow: 1px 1px 2px #333;
+}
+#mail tr>td>input[type="submit"]:hover{
+  background-color: #fff;
+  color: #426ef4;
+}
+#bold,#italic,#delete{
+  padding: 1px;
+  width: 15%;
+  border-radius: 0px;
+}
+.rowb{
+  margin-top: 3%;
+}
+.bold{
+  font-weight: bold;
+}
+.italic{
+  font-style: italic;
+}
